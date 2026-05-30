@@ -1,14 +1,14 @@
 {
-  "name": "actividad_05",
+  "name": "backend-mesa-ayuda",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/app.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Grupo 8: Blair Delgado, Leiber Zambrano, Michael Palma, Christofer Barzola",
   "license": "ISC",
-  "description": "",
+  "description": "API REST para el módulo de Mesa de Ayuda",
   "dependencies": {
     "cors": "^2.8.6",
     "dotenv": "^17.4.2",
